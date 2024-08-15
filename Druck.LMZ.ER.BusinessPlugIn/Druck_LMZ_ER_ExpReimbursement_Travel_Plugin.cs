@@ -65,6 +65,7 @@ namespace Druck.LMZ.ER.BusinessPlugIn
             base.AfterEntryBarItemClick(e);
 
             var key = e.BarItemKey;
+            //生成补贴明细触发
             if (key.EqualsIgnoreCase("tbFillByStd"))
             {
                 StringBuilder sb = new StringBuilder();
