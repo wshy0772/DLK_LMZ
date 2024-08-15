@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Druck.LMZ.ER.BusinessPlugIn", "D:\WorkSpace\WZOU\两面针\Code\Druck.LMZ.ER.BusinessPlugIn\Druck.LMZ.ER.BusinessPlugIn.csproj", "{A0811938-AAA0-48A9-B02A-BD5F1232F85D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LMZ", "D:\WorkSpace\WZOU\两面针\Code\LMZ\LMZ.csproj", "{0837C287-3819-410D-9BBE-60767E0B6DE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0811938-AAA0-48A9-B02A-BD5F1232F85D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0811938-AAA0-48A9-B02A-BD5F1232F85D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0811938-AAA0-48A9-B02A-BD5F1232F85D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0811938-AAA0-48A9-B02A-BD5F1232F85D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0837C287-3819-410D-9BBE-60767E0B6DE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0837C287-3819-410D-9BBE-60767E0B6DE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0837C287-3819-410D-9BBE-60767E0B6DE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0837C287-3819-410D-9BBE-60767E0B6DE8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A3B60F0-A16C-4DF4-A09A-9C390AA92B08}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AssemblyModel xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Id>20841c4f-4ae9-4e94-a265-d8ec9f65a938</Id>
+  <MasterId>K3Cloud</MasterId>
+  <Name>程序集包</Name>
+  <Developer>
+    <Id>PAEZ</Id>
+    <DevCode>PAEZ</DevCode>
+    <Level>1</Level>
+    <Name>PAEZ</Name>
+  </Developer>
+  <RequiredPackages />
+  <ExclusivePackages />
+  <IsSuperPkg>false</IsSuperPkg>
+  <IncludedExtended>false</IncludedExtended>
+  <DevPhase>Unknown</DevPhase>
+  <CanBeStopped>false</CanBeStopped>
+  <DeployEdition>ALL</DeployEdition>
+  <PatchType>ALL</PatchType>
+  <Deploy>Business</Deploy>
+  <PackageCategory>FuncPackage</PackageCategory>
+  <IsReplace>true</IsReplace>
+  <LocaleId>0</LocaleId>
+  <Issues />
+  <Links />
+  <PreInstallMsg />
+  <AfterInstallMsg />
+  <PlugIns />
+  <KDServices>
+    <DataEntities />
+    <Contracts />
+    <ServiceHelpers />
+    <AppServices />
+    <Resources />
+  </KDServices>
+  <OtherComponents>
+    <KDComponent xsi:type="DotNetProjectComponent">
+      <Target>CompileAndPackage</Target>
+      <Name>LMZ.csproj</Name>
+      <ComponentPath>LMZ\LMZ.csproj</ComponentPath>
+      <Type>Assembly</Type>
+      <OpeType>AddOrUpdate</OpeType>
+      <IsSign>false</IsSign>
+      <IsIgnoreError>false</IsIgnoreError>
+      <OutputPath>Bin</OutputPath>
+      <CopyToPaths />
+      <Condition />
+      <OutputAssemblyFile>LMZ.dll</OutputAssemblyFile>
+      <GenerateManifests>false</GenerateManifests>
+      <ReferencePaths>
+        <string>..\..\K3Cloud\BIN</string>
+      </ReferencePaths>
+      <TargetPlatform />
+      <OtherOutputResources />
+      <SmartAssembly>false</SmartAssembly>
+      <Verbosity>quiet</Verbosity>
+      <FailRetryTime>0</FailRetryTime>
+    </KDComponent>
+  </OtherComponents>
+  <TestPlugIns />
+  <Resources />
+  <BusinessPlugIns>
+    <KDComponent xsi:type="DotNetProjectComponent">
+      <Target>CompileAndPackage</Target>
+      <Name>Druck.LMZ.ER.BusinessPlugIn.csproj</Name>
+      <ComponentPath>Druck.LMZ.ER.BusinessPlugIn\Druck.LMZ.ER.BusinessPlugIn.csproj</ComponentPath>
+      <Type>Assembly</Type>
+      <OpeType>AddOrUpdate</OpeType>
+      <IsSign>false</IsSign>
+      <IsIgnoreError>false</IsIgnoreError>
+      <OutputPath>Bin</OutputPath>
+      <Condition />
+      <OutputAssemblyFile>Druck.LMZ.ER.BusinessPlugIn.dll</OutputAssemblyFile>
+      <GenerateManifests>false</GenerateManifests>
+      <ReferencePaths>
+        <string>..\..\K3Cloud\BIN</string>
+      </ReferencePaths>
+      <TargetPlatform />
+      <OtherOutputResources />
+      <SmartAssembly>false</SmartAssembly>
+      <Verbosity>quiet</Verbosity>
+      <FailRetryTime>0</FailRetryTime>
+    </KDComponent>
+  </BusinessPlugIns>
+</AssemblyModel>
